@@ -9,6 +9,8 @@ import { PresupuestoIngresoComponent } from './presupuestos/presupuestos-valores
 import { PresupuestoEgresoComponent } from './presupuestos/presupuestos-valores/presupuesto-egreso/presupuesto-egreso.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { PanelComponent } from './panel/panel.component';
+import { IngresosComponent } from './panel/ingresos/ingresos.component';
+import { EgresosComponent } from './panel/egresos/egresos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PanelComponent } from './panel/panel.component';
     PresupuestoIngresoComponent,
     PresupuestoEgresoComponent,
     FormularioComponent,
-    PanelComponent
+    PanelComponent,
+    IngresosComponent,
+    EgresosComponent
   ],
   imports: [
     BrowserModule
